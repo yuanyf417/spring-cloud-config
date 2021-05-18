@@ -1,0 +1,14 @@
+# 公共配置
+
+# actuator 暴露接口
+management:
+  endpoints:
+    web:
+      exposure:
+        # 生产中只需暴露指定端口
+        include: "*"
+        #include: health, info, xxx
+
+  endpoint:
+    health:
+      show-details: always
