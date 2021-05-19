@@ -1,6 +1,6 @@
 # 数据库连接 & 密码
 mariadb:
-  url: 'url: jdbc:mysql://192.168.1.23:3306/foodie_shop?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&serverTimezone=UTC'
+  url: 'url: jdbc:mysql://192.168.1.23:3306/foodie_shop??allowPublicKeyRetrieval=true&useSSL=false'
   passwprd: '{cipher}AQCd/ZailYF2cH88T+fADnmfIoaV/O6WULdk1fjBt8WYvExb4jsoxYpDhAPhPqt3PA23TmIYJ94zmGPLYFgnNf5qDPJRYRHAXp0hvPY+PRiC5nfBP93hMn5f9MkFC/nDyWHHjF6LtguaSsczb1vl6NsK7R0TaBJC2IG3AvDB0SpDd+YVJWJyv9NmUnsG+Aj44wOF3PZ9yYQPA4qB4veaENg5ttHWNNAFFnWeJ/4XlqjUXuTFNzUWD7tXNycWf1ReIHS+12sGvKr3td33xFc9eH2rm6tMeURNgrRAQDNoiPGhKVxMiOsB98/gRhQeynopIpeZEwrBlEonaqmZee72bk2r0sGV7/kr4r0aYt7VpPjmVP/+zGv+8lrjN+nBxeIB3lk='
 
 # 功能开关  开启/关闭注册功能
